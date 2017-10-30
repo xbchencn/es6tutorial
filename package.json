@@ -1,0 +1,32 @@
+{
+  "name": "es6simplify",
+  "version": "1.0.0",
+  "description": "es6 simplify",
+  "main": "mian.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "webpack-dev-server",
+    "release": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/escodes/es6tutorial.git"
+  },
+  "keywords": [
+    "es6",
+    "simplify"
+  ],
+  "author": "escoder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/escodes/es6tutorial/issues"
+  },
+  "homepage": "https://github.com/escodes/es6tutorial#readme",
+  "devDependencies": {
+    "webpack": "^3.5.6",
+    "webpack-dev-server": "^2.7.1"
+  }
+}

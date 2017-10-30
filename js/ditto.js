@@ -226,8 +226,7 @@ function create_page_anchors() {
           ' <a href="#' + location.hash.split('#')[1] +
           '#' +
           replace_symbols(content) +
-          '" class="section-link">§</a> <a href="#' +
-          location.hash.split('#')[1] + '" onclick="goTop()">⇧</a>');
+          '" class="section-link">§</a> <a href="#' + location.hash.split('#')[1] + '" onclick="goTop()" style="float: right;">⇧</a>');
       }, function () {
         $(this).html(content);
       });
@@ -287,7 +286,7 @@ function show_loading() {
   return loading;
 }
 
-function router() { 
+function router() {
   var path = location.hash.replace(/#([^#]*)(#.*)?/, './$1');
 
   var hashArr = location.hash.split('#');
