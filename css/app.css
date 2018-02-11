@@ -36,6 +36,7 @@ body {
     -webkit-box-shadow: 0 0 40px #CCC;
     -moz-box-shadow: 0 0 40px #CCC;
     border-right: 1px solid #BBB;
+    background-color: #fff;
 }
 
 @media (min-width: 40rem) {
@@ -145,12 +146,12 @@ input.searchButton {
 
 @media (min-width: 40rem) {
 	#content {
-		width: 580px;
+		width: 780px;
 		padding-left:330px;
 		margin-left: 0px;
 		margin-right: 0px;
     }
-    
+
     #sidebar ul li, #sidebar ol li {
         font-size: .7rem;
     }
@@ -303,7 +304,7 @@ input.searchButton {
     width: 70px;
     top: 20px;
 
-    margin-left: 930px;
+    margin-left: 1130px;
     margin-top: 0px;
 
     color: #FFF;
@@ -407,7 +408,7 @@ input.searchButton {
 
 @media (min-width: 40rem) {
 	#flip{
-		margin-left:545px;
+		margin-left: 745px;
 		width:150px;
 	}
 }
